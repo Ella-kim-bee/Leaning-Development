@@ -17,3 +17,6 @@ git pull(github에 있는 걸 가져오기-원격저장소에 있는 최신화-�
 git hub pull requests
 merge branch 병합
 git merge [ name ]
+
+git status 상태확인
+git log 수정목록

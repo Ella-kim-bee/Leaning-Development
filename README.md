@@ -11,3 +11,9 @@ git pull(github에 있는 걸 가져오기-원격저장소에 있는 최신화-�
 - git branch -r(remote)
 - git branch -d(del local에 있는 branch만 delete)
 - git checkoout [name] (name branch로 이동 or 현재 working directory를 해당 branch로 변경)
+
+같은 파일 다른 사람 수정 후 (push or pull 했을 때) 충돌 시, message 대로 실행 - conflict해결 - add - commit - push  
+
+git hub pull requests
+merge branch 병합
+git merge [ name ]

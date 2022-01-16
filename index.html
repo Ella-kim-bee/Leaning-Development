@@ -1,12 +1,12 @@
 <html>
     <head></head>
     <body>
-        <input id="myDate" />
+        <input id="myDate" value="2021-01-01 13:30:00" />
         <button onclick="getDate()" type="button" >날짜 구하기</button>
 
         <table>
             <tr>
-                <td id="king">1시 - 왕좌의 게임</td>
+                <td id="king">12시 - 왕좌의 게임</td>
                 <td id="paper">3시 30분 - 종이의 집</td>
                 <td id="dead">5시 20분 - 워킹데드</td>
             </tr>
@@ -16,8 +16,8 @@
         <script type="text/javascript">
             const programs = [{
                 name: '왕좌의 게임',
-                sDateTime: '2021-01-01 13:00:00',
-                eDateTime: '2021-01-01 15:30:00',
+                sDateTime: '2021-01-01 12:00:00',
+                eDateTime: '2023-01-01 15:30:00',
                 elementId: 'king'
             },
             {
@@ -35,7 +35,12 @@
 
             function getDate(){
                 let date = document.getElementById("myDate").value
+                
+                // input에 입력된 시간 기준으로 구현
                 let momentDate = moment(date)
+                
+                /* 클라이언트(사용자)의 현재시간을 기준으로 구현 */
+                // let momentDate = moment(new Date())
 
                 if(!momentDate.isValid()){
                     alert('올바른 날짜를 입력하세요.')
@@ -44,6 +49,7 @@
 
                 for(let program of programs){
                     document.getElementById(program.elementId).style = 'background: none'
+
                     if(momentDate.isBetween(program.sDateTime, program.eDateTime)){
                         document.getElementById(program.elementId).style = 'background: red'
                     }
@@ -53,6 +59,8 @@
 
                 console.log(date)
             }
+
+            getDate()
         </script>
     </body>
 </html>

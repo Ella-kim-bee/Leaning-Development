@@ -1,0 +1,28 @@
+{
+    "name": "ella",
+    "age": 30,
+    "nickName": "bible",
+    "family": ["father","mather","brother","husband","merry"],
+    "birthday": new Date(1992, 9, 13),
+    "partner": { 
+        "name": "echo",
+        "age": 27,
+        "birthday": new Date(1996, 6, 27),
+        "favorite": {
+            "color": "green",
+            "food": "zero-coke"
+        }
+    },
+    "specialYear": [
+        1992, 2018, 2021, 2022
+    ],
+    "favorite": {
+        "color": "green",
+        "food": "zero-coke"
+    } 
+}: ME
+
+{
+    "name": "echo",
+    "relation": "husband"
+}: Family

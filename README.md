@@ -34,3 +34,12 @@ git log 수정목록
 
 * call by value => value copy
 * call by Refernce => 주소값을 넣어줌, 참조, object, array에 많이 사용됨=>큰 데이터 (a=2, b=a => b->a가서 값 확인->값 참조해서 보여줌)
+
+1. private IP
+- subnet 안에서 할당된 IP주소
+
+2. public IP
+- 전세계적으로 어디서든 접속할 수 있는 공식 IP
+- 돈주고사는것, 
+
+3. subnet : 255.255.255.255 주소를 공유기(라우터, 게이드웨이)를 통해서 192.168.0.0~255 내부에서 여러개로 나눠서 사용 

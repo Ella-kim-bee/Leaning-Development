@@ -40,6 +40,28 @@ git log 수정목록
 
 2. public IP
 - 전세계적으로 어디서든 접속할 수 있는 공식 IP
-- 돈주고사는것, 
+- 돈주고사는것
 
 3. subnet : 255.255.255.255 주소를 공유기(라우터, 게이드웨이)를 통해서 192.168.0.0~255 내부에서 여러개로 나눠서 사용 
+
+**Alias : 현업에서 종종 쓰이는 용어들
+
+1. Admin(어드민) : 판매자 tool, 관리자 화면
+2. Cumers(커머스) : 비즈니스영역, 쇼핑몰
+3. 모달 : 브라우저가 아닌 어플리케이션 내부에서 뜨는 것
+4. 팝업 : 브라우저 창이 하나 더 뜨는 것
+5. PR (LGTM) : pull reqeust, looks good to me
+6. 컴포넌트 : 기능 묶음
+7. 템플릿
+8. 토스트, 알림(?) : 알림
+9. 푸시알림 : 어플리케이션 알람
+10. 페이징 : 다량의 데이터를 몇개씩 쪼개서 해당페이지에서 필요한 만큼만 가져오는 것
+11. 에디터 : ex)네이버스마트에디터
+12. 인앱 웹, 웹뷰, 하이브리드 앱 : 어플리케이션 화면을 html로 구조화(인앱웹:카카오톡, 웹뷰(하이브리드앱):화면을 눌렀을때 hmtl)
+13. SPA(Single Page Application) : 한 페이지에서 모든 page를 ajax로, 화면 그리는 거를 브라우저(클라이언트)에서 함
+14. SSR(Server Side Rendering) : 서버에서 화면을 그려서 보내줌
+15. PWA(Progressive Web App) : ex)구글 스프레드시트
+16. SEO(Search Engine Optimization) : 검색엔진 최적화
+17. Load, Render, Rerender(update) : sever -> load(불러옴) -> render(그림) -> rerender(다시그림)
+18. DOM : document object model(html -> dom으로 parcing)
+19. 단위테스트, 테스트 : 

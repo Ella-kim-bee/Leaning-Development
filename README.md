@@ -1,4 +1,5 @@
 Hello, world
+Fornt-end Developer 
 ============
 git 세 가지 상태
 .git directory
